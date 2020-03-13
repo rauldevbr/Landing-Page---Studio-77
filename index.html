@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/simple-lightbox.min.css">
+    <script src="https://kit.fontawesome.com/eb4d345d90.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Studio 77</title>
+</head>
+
+<body>
+    <div class="estrutura">
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    Studio 77
+                </div>
+            </div>
+        </header>
+
+        <section class="section-a">
+            <div class="overlay">
+                <div class="container">
+                    <div class="question">
+                        <h1>O que falta para a sua banda chegar ao próximo nível?</h1>
+                        <h2>Um estúdio de qualidade superior.</h2>
+                    </div>
+
+                    <div class="action">
+                        <div></div>
+                        <div class="form">
+                            <div>
+                                <p>Deixe seu e-mail e ganhe 1h grátis</p>
+                                <input type="email" name="email" id="email" class="mail" placeholder="Email">
+                                <button class="btn"> Chegar lá! </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="section-b">
+            <div class="gallery">
+                <a href="img/studio-01-min.jpg" class="big">
+                    <img src="img/studio-01-min.jpg" alt="" />
+                </a>
+                <a href="img/studio-02-min.jpg" class="big">
+                    <img src="img/studio-02-min.jpg" alt="" />
+                </a>
+                <a href="img/studio-03-min.jpg" class="big">
+                    <img src="img/studio-03-min.jpg" alt="" />
+                </a>
+                <a href="img/studio-04-min.jpg" class="big">
+                    <img src="img/studio-04-min.jpg" alt="" />
+                </a>
+                <a href="img/studio-05-min.jpg" class="big">
+                    <img src="img/studio-05-min.jpg" alt="" />
+                </a>
+                <a href="img/studio-06-min.jpg" class="big">
+                    <img src="img/studio-06-min.jpg" alt="" />
+                </a>
+            </div>
+        </section>
+
+        <footer class="section-footer">
+            <div class="container">
+                <h2>Lorem ipsum dolor sit.</h2>
+                <a href="http://twitter.com">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="http://facebook.com">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="http://youtube.com">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+        $(function () {
+            var $gallery = new SimpleLightbox('.gallery a');
+        })
+    </script>
+</body>
+
+</html>
